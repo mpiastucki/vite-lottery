@@ -1,6 +1,6 @@
 import React from 'react'
 import SubmitButton from './SubmitButton'
-import sunriseImage from "./assetsjohn-towner-CakC6u4d95g-unsplash.jpg"
+import sunriseImage from "./assets/john-towner-CakC6u4d95g-unsplash.jpg"
 
 function LotteryForm(){
     return (
