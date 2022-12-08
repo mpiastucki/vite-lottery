@@ -7,7 +7,7 @@ COPY package.json ./
 
 COPY ./server .
 
-COPY ./build .
+COPY ./dist .
 
 RUN npm install
 
