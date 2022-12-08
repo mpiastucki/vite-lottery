@@ -13,4 +13,4 @@ RUN npm install
 
 EXPOSE 9000
 
-CMD ["node", "./server"]
+CMD ["node", "./server/index.cjs"]
