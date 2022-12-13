@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY package-lock.json ./
 COPY package.json ./
 
-COPY ./server .
+COPY . .
 
 RUN npm install
 RUN npm run build
